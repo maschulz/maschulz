@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Marc-André Schulz",
+    "section": "",
+    "text": "I lead the Translational Barriers research group in the Department of Machine Learning at the Hertie Institute for AI in Brain Health (University of Tübingen). My team works on the methodological gap between research-grade machine learning and clinically trustworthy AI, with a focus on brain imaging and precision psychiatry. Current projects span explainable-AI validation, algorithmic fairness and bias attribution, training-data attribution, and confound detection in medical deep learning, alongside methods development on transformer and foundation-model architectures for brain dynamics.\nA recurring theme across my publications is honest accounting of what medical AI actually delivers. My Nature Communications paper on distinct scaling laws for deep learning and linear models on biomedical data (~400 citations) is a reference point in current discussions of sample efficiency in medical imaging AI. Later work in Cell Reports mapped sample-efficiency ceilings for phenotype prediction. A 2025 paper in PLOS Biology identified counter-intuitive accuracy-versus-sensitivity trade-offs in brain-age biomarkers, and ongoing work documents systematic failure modes of common explainable-AI tools used in clinical neuroimaging.\nBefore Tübingen, I was a senior research associate at Charité Universitätsmedizin Berlin, working within DFG-funded CRC 1404 on workflows for large-scale scientific data analysis, with my own work focused on machine learning methods for population-scale neuroimaging and precision psychiatry. Earlier in my career I collaborated with QuantumBlack, AI by McKinsey (London) on model explainability and adversarial methods (AAAI 2021), and consulted for dida GmbH on computer-vision and NLP projects. I am principal investigator on DFG-funded research and co-PI on a national supercomputing grant.\nI take on a small number of external engagements each year where independent technical judgment matters: due diligence on medical AI products, AI Act readiness, fairness and bias audits, and scientific advisory for medical-AI startups."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Marc-André Schulz",
+    "section": "Selected publications",
+    "text": "Selected publications\nSchulz, M.-A., Siegel, N.T., & Ritter, K. (2025). Brain-age models with lower age prediction accuracy have higher sensitivity for disease detection. PLOS Biology 23(10), e3003451. [paper]\nBrain-age models optimized for chronological-age prediction systematically suppress disease-relevant signal. Simpler models with worse age accuracy detect disease more reliably. Implications for biomarker design in CNS drug development and clinical translation.\nSchulz, M.-A., Bzdok, D., Haufe, S., Haynes, J.-D., & Ritter, K. (2024). Performance reserves in brain-imaging-based phenotype prediction. Cell Reports 43(1). [paper]\nQuantifies how much further medical AI accuracy could go with more data, more features, or different methods. Establishes sample-efficiency limits and shows multimodal integration can substitute for doubled cohort size.\nSchulz, M.-A., et al. (2020). Different scaling of linear models and deep learning in UK Biobank brain images versus machine-learning datasets. Nature Communications 11, 4238. [paper]\nThe defining empirical study of how deep learning vs. linear-model performance scales with sample size on medical imaging. Widely referenced for understanding when architectural complexity pays off in biomedical AI. ~400 citations.\nSchulz, M.-A., et al. (2023). Similar neural pathways link psychological stress and brain-age in health and multiple sclerosis. iScience 26(9). [paper]\nIdentifies shared neural mechanisms by which psychological stress accelerates brain aging in healthy controls and MS patients, using explainable-AI methods adapted for 3D medical imaging.\nEitel, F.*, Schulz, M.-A.*, et al. (2021). Promises and pitfalls of deep neural networks in neuroimaging-based psychiatric research. Experimental Neurology 339. [paper]\nCo-first-authored review of how uncontrolled confounding and methodological shortcuts inflate apparent ML performance in psychiatric neuroimaging. Frequently cited reference on methodological rigor in clinical AI.\nChapman-Rounds, M., Bhatt, U., Pazos, E., Schulz, M.-A., & Georgatzis, K. (2021). FIMAP: Feature importance by minimal adversarial perturbation. AAAI 2021 35(13), 11433–11441.\nCo-developed at QuantumBlack, AI by McKinsey. Adversarial approach to explainability addressing fundamental limitations of gradient-based feature attribution methods.\nA complete publication list is on Google Scholar."
+  },
+  {
+    "objectID": "index.html#writing",
+    "href": "index.html#writing",
+    "title": "Marc-André Schulz",
+    "section": "Writing",
+    "text": "Writing\nEssays and public-facing writing forthcoming."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Marc-André Schulz",
+    "section": "Contact",
+    "text": "Contact\nFor consulting inquiries, media requests, or research collaboration: marc@maschulz.com"
+  }
+]
