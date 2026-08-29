@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><main class="content" id="quarto-document-content">
 <p>I lead the Translational Barriers research group in the Department of Machine Learning at the Hertie Institute for AI in Brain Health (University of Tübingen). My team works on the methodological gap between research-grade machine learning and clinically trustworthy AI, with a focus on brain imaging and precision psychiatry. Current projects span explainable-AI validation, algorithmic fairness and bias attribution, training-data attribution, and confound detection in medical deep learning, alongside methods development on transformer and foundation-model architectures for brain dynamics.</p>
 <p>A recurring theme across my publications is honest accounting of what medical AI actually delivers. My Nature Communications paper on distinct scaling laws for deep learning and linear models on biomedical data (~400 citations) is a reference point in current discussions of sample efficiency in medical imaging AI. Later work in Cell Reports mapped sample-efficiency ceilings for phenotype prediction. A 2025 paper in PLOS Biology identified counter-intuitive accuracy-versus-sensitivity trade-offs in brain-age biomarkers, and ongoing work documents systematic failure modes of common explainable-AI tools used in clinical neuroimaging.</p>
-<p>Before Tübingen, I was a senior research associate at Charité Universitätsmedizin Berlin, working within DFG-funded CRC 1404 on workflows for large-scale scientific data analysis, with my own work focused on machine learning methods for population-scale neuroimaging and precision psychiatry. Earlier in my career I collaborated with QuantumBlack, AI by McKinsey (London) on model explainability and adversarial methods (AAAI 2021), and consulted for dida GmbH on computer-vision and NLP projects. I am principal investigator on DFG-funded research and co-PI on a national supercomputing grant.</p>
+<p>Before Tübingen, I was a senior research associate at Charité Universitätsmedizin Berlin, working within DFG-funded CRC 1404 on workflows for large-scale scientific data analysis, with my own work focused on machine learning methods for population-scale neuroimaging and precision psychiatry. Earlier in my career I collaborated with QuantumBlack, AI by McKinsey (London) on model explainability and adversarial methods (AAAI 2021), and consulted for dida GmbH on computer-vision and NLP projects. I am sole principal investigator on <a href="https://gepris.dfg.de/gepris/person/560974202?language=en">two DFG grants</a> and on a national supercomputing grant.</p>
 <p>I take on a small number of external engagements each year where independent technical judgment matters: due diligence on medical AI products, AI Act readiness, fairness and bias audits, and scientific advisory for medical-AI startups.</p>
 <section id="selected-publications" class="level2">
 <h2 data-anchor-id="selected-publications">Selected publications</h2>
@@ -126,6 +126,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Quantifies how much further medical AI accuracy could go with more data, more features, or different methods. Establishes sample-efficiency limits and shows multimodal integration can substitute for doubled cohort size.</p>
 <p><strong>Schulz, M.-A., et al.&nbsp;(2020).</strong> Different scaling of linear models and deep learning in UK Biobank brain images versus machine-learning datasets. <em>Nature Communications</em> 11, 4238. <a href="https://doi.org/10.1038/s41467-020-18037-z">[paper]</a></p>
 <p>The defining empirical study of how deep learning vs.&nbsp;linear-model performance scales with sample size on medical imaging. Widely referenced for understanding when architectural complexity pays off in biomedical AI. ~400 citations.</p>
+<p><strong>Siegel, N.T., Cole, J.H., Habes, M., Haufe, S., Ritter, K., &amp; Schulz, M.-A. (2025).</strong> Explainable AI methods for neuroimaging: systematic failures of common tools, the need for domain-specific validation, and a proposal for safe application. <em>In revision, Nature Communications.</em> <a href="https://arxiv.org/abs/2508.02560">[preprint]</a></p>
+<p>Widely used explanation methods fail systematically on 3D neuroimaging data, in ways that benchmarks built on natural images do not reveal. Proposes the domain-specific validation the field skipped.</p>
+<p><strong>Gijsen, S., Schulz, M.-A., &amp; Ritter, K. (2026).</strong> Brain-Semantoks: learning semantic tokens of brain dynamics with a self-distilled foundation model. <em>International Conference on Learning Representations (ICLR).</em> <a href="https://arxiv.org/abs/2512.11582">[preprint]</a></p>
+<p>A self-distilled foundation model that learns discrete semantic tokens of brain dynamics, rather than treating fMRI as an undifferentiated time series.</p>
+<p><strong>Schulz, M.-A., &amp; Ritter, K. (2026).</strong> Measurement noise limits the advantage of nonlinear models over linear models in biomedical prediction. <a href="https://arxiv.org/abs/2606.18420">[preprint]</a></p>
+<p>Turns the deep-learning-versus-linear debate into a measurement question: the advantage of nonlinear models decays as noise in the features rises, which is why it disappears on biomedical data.</p>
+<p><strong>Siegel, N.T., Kainmueller, D., Deniz, F., Ritter, K., &amp; Schulz, M.-A. (2025).</strong> Do transformers and CNNs learn different concepts of brain age? <em>Human Brain Mapping</em> 46(8), e70243. <a href="https://doi.org/10.1002/hbm.70243">[paper]</a></p>
+<p>Two architectures trained on the same data learn measurably different notions of brain age, so architecture choice quietly changes what the biomarker means.</p>
 <p><strong>Schulz, M.-A., et al.&nbsp;(2023).</strong> Similar neural pathways link psychological stress and brain-age in health and multiple sclerosis. <em>iScience</em> 26(9). <a href="https://doi.org/10.1016/j.isci.2023.107679">[paper]</a></p>
 <p>Identifies shared neural mechanisms by which psychological stress accelerates brain aging in healthy controls and MS patients, using explainable-AI methods adapted for 3D medical imaging.</p>
 <p><strong>Eitel, F.*, Schulz, M.-A.*, et al.&nbsp;(2021).</strong> Promises and pitfalls of deep neural networks in neuroimaging-based psychiatric research. <em>Experimental Neurology</em> 339. <a href="https://doi.org/10.1016/j.expneurol.2021.113608">[paper]</a></p>
